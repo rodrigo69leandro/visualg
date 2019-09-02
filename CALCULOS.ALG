@@ -5,8 +5,8 @@ Algoritmo "Calculo"
 // Autor(a)    : Rodrigo Leandro
 // Data atual  : 1/9/19
 Var
-
-   n1, n2, soma, divisao, multiplicacao, resto : real
+   divisao :real
+   n1, n2, soma, multiplicacao, resto : inteiro
 
 
 Inicio
@@ -20,7 +20,7 @@ escreva("Entre com o segundo número: ")
  divisao <- n1/n2
  multiplicacao <- n1*n2
  
- resto <- n1 % n2 // Erro de execução
+ resto <- n1 % n2
 
  escreval("Resultados")
  escreval("Soma: ", soma)
